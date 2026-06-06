@@ -1,0 +1,36 @@
+{
+    "name": "verifiedsms/sdk-php",
+    "description": "PHP SDK for VerifiedSMS API v2 — SMS gateway for Nepal",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["sms", "nepal", "gateway", "verifiedsms", "ntc", "ncell"],
+    "homepage": "https://github.com/VerifiedSMS/sdk-php",
+    "authors": [
+        {
+            "name": "VerifiedSMS",
+            "email": "support@verifiedsms.com",
+            "homepage": "https://verifiedsms.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerifiedSMS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VerifiedSMS\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.x-dev"
+        }
+    }
+}
