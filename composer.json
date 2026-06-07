@@ -1,5 +1,5 @@
 {
-    "name": "verifiedsms/sdk-php",
+    "name": "verifiedsms/verifiedsms-php",
     "description": "PHP SDK for VerifiedSMS API v2 — SMS gateway for Nepal",
     "type": "library",
     "license": "MIT",
